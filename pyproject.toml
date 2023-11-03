@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "test19-1"
+version = "0.1.0"
+description = ""
+authors = ["Mike Kushner <mike760807@gmail.com>"]
+readme = "README.md"
+packages = [{include = "test19_1"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
